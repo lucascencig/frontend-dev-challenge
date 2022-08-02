@@ -141,62 +141,10 @@ export default function Landing() {
 
 
       {/* form */}
-      {/* <div className="form_container">
-        <h2>¡Contactate con nosotros!</h2>
-        <form action="">
-          <div className="input_email">
-            <input placeholder="Inserte su: correo" type="email" />
-          </div>
-
-          <div className="selector">
-            <label>Select</label>
-            <select name="" placeholder="Select" id="">
-              <option value=""></option>
-              <option value="">option1</option>
-              <option value="">option2</option>
-              <option value="">option3</option>
-            </select>
-          </div>
-
-          <div className="textarea">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-          </div>
-
-          <div className="button_submit">
-            <button type="submit">Enviar</button>
-          </div>
-        </form>
-      </div> */}
-
       <Form />
 
 
       {/* footer */}
-      {/* <div className="footer_container">
-        <footer>
-          <div className="title_footer">
-            <img src={logoFooter} alt="logo_footer" />
-          </div>
-
-          <div className="text_footer">
-            <p>La Mente es Maravillosa is a property of Grupo MContigo © 2012 - 2020. All rights reserved.
-              Los contenidos de esta publicación se redactan solo con fines informativos. En ningún momento pueden servir para facilitar diagnósticos o sustituir la labor de un profesional. Le recomendamos que contacte con su especialista de confianza.</p>
-          </div>
-
-          <div className="separator_footer">
-          </div>
-
-          <div className="list_footer">
-            <ul>
-              <li><a href="">Política de Cookies</a></li>
-              <li><a href="">Política de Privacidad</a></li>
-              <li><a href="">Términos y condiciones de uso</a></li>
-              <li><a href="">Cláusula Informativa de Consentimiento</a></li>
-            </ul>
-          </div>
-
-        </footer>
-      </div> */}
       <Footer />
       
     </div>
