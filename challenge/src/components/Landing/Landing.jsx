@@ -2,7 +2,8 @@ import React from "react";
 import logo from '../images/logoES.png'
 import photoOne from '../images/photoOne.png'
 import photoTwo from '../images/photoFamilia.png'
-import logoFooter from '../images/Group.png'
+import Footer from "../footer/Footer";
+import Form from "../form/form";
 
 import { FaComments } from 'react-icons/fa'
 
@@ -140,7 +141,7 @@ export default function Landing() {
 
 
       {/* form */}
-      <div className="form_container">
+      {/* <div className="form_container">
         <h2>¡Contactate con nosotros!</h2>
         <form action="">
           <div className="input_email">
@@ -165,12 +166,13 @@ export default function Landing() {
             <button type="submit">Enviar</button>
           </div>
         </form>
-      </div>
+      </div> */}
 
+      <Form />
 
 
       {/* footer */}
-      <div className="footer_container">
+      {/* <div className="footer_container">
         <footer>
           <div className="title_footer">
             <img src={logoFooter} alt="logo_footer" />
@@ -194,7 +196,8 @@ export default function Landing() {
           </div>
 
         </footer>
-      </div>
+      </div> */}
+      <Footer />
       
     </div>
 
