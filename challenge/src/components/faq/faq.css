@@ -1,0 +1,122 @@
+@media (max-width: 375px) {
+  :root {
+    --colorBlanco: #f1f1f1;
+    --colorBlanco2: #e4e4e4;
+
+    --colorGris: #CACACA;
+    --colorGris2: #B1B1B1;
+    --colorGris3: #979797;
+    -colorGris4: #7D7D7D;
+    --colorGris5: #696969;
+    --colorGris6: #555555;
+    --colorGris7: #414141;
+    --colorGris8: #2D2D2D;
+    --colorNegro: #191919;
+
+    --colorIndigo: #486DB7;
+    --colorPink: #F778B9;
+    --colorPurples: #B378FF;
+
+    --basic1: #ffffff;
+    --basic2: #000000;
+
+    --Font_Heading: 'Source Sans Pro', sans-serif;
+    --Font_Parrafos: 'Merriweather', serif;
+    --Font_Parrafos2: 'Source Code Pro', monospace;
+  }
+
+  /* section faq */
+
+  .faq_container {
+    width: 350px;
+    height: 100%;
+    padding: 8px;
+  }
+
+  .faq_question h3 {
+    width: 325px;
+    height: 64px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #414141;
+    transform: rotate(0deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px 0px 10px;
+    border-bottom: 2px dashed var(--basic2);
+  }
+
+  .faq_question h3 img {
+    position: absolute;
+    top: 0vh;
+    left: 90%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .checkbox_faq {
+    opacity: 0;
+
+  }
+
+  .checkbox_faq:checked+.faq_answered {
+
+    width: 333px;
+    height: 450px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    transform: rotate(0deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: all 0.5s ease;
+    padding: 8px;
+    overflow: hidden;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .faq_answered {
+    /* transform: translateY(00px); */
+    opacity: 0;
+    transition: all 0.5s ease;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .faq_answered h2 ol li {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: -50px;
+    margin-bottom: -30px;
+    margin-left: -15px;
+    color: #486DB7;
+  }
+
+  .faq_answered p {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #414141;
+  }
+
+  .text_color {
+    color: #B378FF;
+  }
+}

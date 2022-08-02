@@ -1,0 +1,146 @@
+@media (max-width: 375px) {
+  :root {
+    --colorBlanco: #f1f1f1;
+    --colorBlanco2: #e4e4e4;
+
+    --colorGris: #CACACA;
+    --colorGris2: #B1B1B1;
+    --colorGris3: #979797;
+    -colorGris4: #7D7D7D;
+    --colorGris5: #696969;
+    --colorGris6: #555555;
+    --colorGris7: #414141;
+    --colorGris8: #2D2D2D;
+    --colorNegro: #191919;
+
+    --colorIndigo: #486DB7;
+    --colorPink: #F778B9;
+    --colorPurples: #B378FF;
+
+    --basic1: #ffffff;
+    --basic2: #000000;
+
+    --Font_Heading: 'Source Sans Pro', sans-serif;
+    --Font_Parrafos: 'Merriweather', serif;
+    --Font_Parrafos2: 'Source Code Pro', monospace;
+  }
+
+
+  /* COMMENTS */
+  .comments_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 375px;
+    height: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    /* animation: next 5s infinite; */
+
+  }
+
+  .comments_container ul {
+
+    display: flex;
+    width: 100%;
+    padding: 0;
+    /* border-radius: 10px; */
+    animation: cambio 15s infinite alternate;
+  }
+
+  .comments_container li {
+    list-style: none;
+    width: 100%;
+
+  }
+
+  .box_comment {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    width: 350px;
+    padding: 8px;
+    height: 320px;
+    animation: next 5s infinite;
+  }
+
+  .box_comment img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .text_comment {
+    width: 255px;
+    height: 224px;
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #414141;
+
+  }
+
+  .name_comment {
+    width: 255px;
+    height: 24px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #414141;
+    margin-bottom: 20px;
+  }
+
+  .faComments {
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+  }
+
+  @keyframes cambio {
+    0% {
+      margin-left: 0;
+    }
+
+    24% {
+      margin-left: 0;
+    }
+
+    25% {
+      margin-left: -745px;
+    }
+
+    50% {
+      margin-left: -745px;
+    }
+
+    51% {
+      margin-left: -1485px;
+    }
+
+    75% {
+      margin-left: -1485px;
+    }
+
+    76% {
+      margin-left: -745px;
+    }
+
+    100% {
+      margin-left: -745px;
+    }
+
+  }
+
+
+}

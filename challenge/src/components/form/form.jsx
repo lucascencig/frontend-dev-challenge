@@ -1,22 +1,31 @@
 import React from 'react';
-import '../../css/styles.css';
+
+// import styles
+import '../form/form.css'
 
 export default function Form() {
 
+  function handleSubmit(e) {
+    e.preventDefault();
+    alert("¡Enviado!")
+  }
+
   return (
     <div>
-      {/* form */}
+
       <div className="form_container">
+
         <h2>¡Contactate con nosotros!</h2>
-        <form action="">
+
+        <form onSubmit={handleSubmit}>
+
           <div className="input_email">
             <input placeholder="Inserte su: correo" type="email" />
           </div>
 
           <div className="selector">
-            <label>Select</label>
             <select name="" placeholder="Select" id="">
-              <option value=""></option>
+              <option value="">Select</option>
               <option value="">option1</option>
               <option value="">option2</option>
               <option value="">option3</option>
@@ -30,8 +39,11 @@ export default function Form() {
           <div className="button_submit">
             <button type="submit">Enviar</button>
           </div>
+
         </form>
+
       </div>
+
     </div>
   )
 }

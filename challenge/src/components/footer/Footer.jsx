@@ -1,12 +1,15 @@
 import React from 'react';
+
+// import images
 import logoFooter from '../images/Group.png'
 
-import '../../css/styles.css';
+// import styles
+import '../footer/footer.css'
 
 export default function Footer() {
-
   return (
     <div className="footer_container">
+
       <footer>
         <div className="title_footer">
           <img src={logoFooter} alt="logo_footer" />
@@ -22,14 +25,14 @@ export default function Footer() {
 
         <div className="list_footer">
           <ul>
-            <li><a href="">Política de Cookies</a></li>
-            <li><a href="">Política de Privacidad</a></li>
-            <li><a href="">Términos y condiciones de uso</a></li>
-            <li><a href="">Cláusula Informativa de Consentimiento</a></li>
+            <li><a href="#">Política de Cookies</a></li>
+            <li><a href="#">Política de Privacidad</a></li>
+            <li><a href="#">Términos y condiciones de uso</a></li>
+            <li><a href="#">Cláusula Informativa de Consentimiento</a></li>
           </ul>
         </div>
-
       </footer>
+
     </div>
   )
 }

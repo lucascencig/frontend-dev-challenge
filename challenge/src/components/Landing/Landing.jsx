@@ -1,18 +1,25 @@
 import React from "react";
+
+// imports images
 import logo from '../images/logoES.png'
 import photoOne from '../images/photoOne.png'
 import photoTwo from '../images/photoFamilia.png'
+
+// imports components
 import Footer from "../footer/Footer";
 import Form from "../form/form";
+import Faq from "../faq/faq";
+import Comments from "../comments/comments";
 
-import { FaComments } from 'react-icons/fa'
-
+// import styles
 import '../../css/styles.css';
 
 export default function Landing() {
 
+
   return (
     <div className="contenedor_landing">
+
       <h1><img src={logo} alt="logo" /></h1>
 
       <div className="titulo_relevante">
@@ -23,7 +30,6 @@ export default function Landing() {
 
 
       {/*first secction cards news */}
-
       <div className="card_news">
         <div>
           <img src={photoOne} alt="photoOne" />
@@ -103,7 +109,6 @@ export default function Landing() {
 
 
       {/* second section of cards news */}
-
       <div className="card_news_three">
         <div className="card_news_three_img">
 
@@ -127,17 +132,19 @@ export default function Landing() {
       </div>
 
 
-      {/* button comments */}
+      {/* comments */}
+      <Comments />
 
-      <div className="button_comments">
-        <button>
-          <p>Lee los comentarios <span><FaComments className="faComments" /></span>  </p>
-        </button>
-      </div>
+      {/* FAQ Section */}
+      <section id="#faq">
+        <Faq />
+      </section>
+
 
 
       {/* separator */}
       <div className="separator"></div>
+
 
 
       {/* form */}
