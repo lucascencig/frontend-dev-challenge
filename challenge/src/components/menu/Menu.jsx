@@ -68,7 +68,7 @@ export default function Menu() {
       </div>
 
       <div className="boton_buscador">
-        <label htmlFor="search"><FaSearch /></label>
+        <label htmlFor="search"><FaSearch className="icon_search_menu" /></label>
         <input type="checkbox" id="search" className="checkbox_search" />
 
         <div className="search_bar_container">

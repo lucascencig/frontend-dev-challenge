@@ -1,5 +1,8 @@
 import React from 'react';
 
+// import images
+import suporte from '../images/suporte.png'
+
 // import styles
 import '../form/form.css'
 
@@ -38,6 +41,10 @@ export default function Form() {
 
           <div className="button_submit">
             <button type="submit">Enviar</button>
+          </div>
+
+          <div className="image_form">
+            <img src={suporte} alt="" />
           </div>
 
         </form>

@@ -11,15 +11,16 @@ export default function Footer() {
     <div className="footer_container">
 
       <footer>
-        <div className="title_footer">
-          <img src={logoFooter} alt="logo_footer" />
-        </div>
+        <div className="footer_part_one">
+          <div className="title_footer">
+            <img src={logoFooter} alt="logo_footer" />
+          </div>
 
-        <div className="text_footer">
-          <p>La Mente es Maravillosa is a property of Grupo MContigo © 2012 - 2020. All rights reserved.
-            Los contenidos de esta publicación se redactan solo con fines informativos. En ningún momento pueden servir para facilitar diagnósticos o sustituir la labor de un profesional. Le recomendamos que contacte con su especialista de confianza.</p>
+          <div className="text_footer">
+            <p>La Mente es Maravillosa is a property of Grupo MContigo © 2012 - 2020. All rights reserved.
+              Los contenidos de esta publicación se redactan solo con fines informativos. En ningún momento pueden servir para facilitar diagnósticos o sustituir la labor de un profesional. Le recomendamos que contacte con su especialista de confianza.</p>
+          </div>
         </div>
-
         <div className="separator_footer">
         </div>
 

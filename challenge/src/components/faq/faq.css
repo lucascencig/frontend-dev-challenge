@@ -27,10 +27,23 @@
 
   /* section faq */
 
+
   .faq_container {
     width: 350px;
     height: 100%;
     padding: 8px;
+  }
+
+  .faq_title {
+    display: none;
+  }
+
+  .faq_question_two {
+    display: none;
+  }
+
+  .faq_question_three {
+    display: none;
   }
 
   .faq_question h3 {
@@ -114,6 +127,308 @@
     line-height: 20px;
     letter-spacing: 0.02em;
     color: #414141;
+  }
+
+  .text_color {
+    color: #B378FF;
+  }
+}
+
+
+/* MEDIA SCREEN PC AND OTHERS */
+@media (max-width: 1440px) {
+  /* section faq */
+
+  .faq_container {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    padding: 8px;
+  }
+
+  .faq_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--Font_Heading);
+    width: 30%;
+    margin: auto;
+    margin-bottom: 5%;
+    height: 40px;
+    background-color: #B378FF;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .faq_question_two {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    padding: 8px;
+  }
+
+  .faq_question_three {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    padding: 8px;
+  }
+
+  .checkbox_faq_two {
+    opacity: 0;
+
+  }
+
+  .checkbox_faq_three {
+    opacity: 0;
+
+  }
+
+  .faq_question h3 {
+    margin: auto;
+    width: 90%;
+    height: 64px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #414141;
+    transform: rotate(0deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px 0px 10px;
+    border-bottom: 2px dashed var(--basic2);
+    cursor: pointer;
+  }
+
+  .faq_question_two h3 {
+    margin: auto;
+    width: 90%;
+    height: 64px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #414141;
+    transform: rotate(0deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px 0px 10px;
+    border-bottom: 2px dashed var(--basic2);
+    cursor: pointer;
+  }
+
+  .faq_question_three h3 {
+    margin: auto;
+    width: 90%;
+    height: 64px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #414141;
+    transform: rotate(0deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px 0px 10px;
+    border-bottom: 2px dashed var(--basic2);
+    cursor: pointer;
+  }
+
+  .faq_question_two h3 img {
+    position: absolute;
+    top: 0vh;
+    left: 90%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_three h3 img {
+    position: absolute;
+    top: 0vh;
+    left: 90%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question h3 img {
+    position: absolute;
+    top: 0vh;
+    left: 90%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .checkbox_faq {
+    opacity: 0;
+
+  }
+
+  .checkbox_faq:checked+.faq_answered {
+
+    width: 90%;
+    height: 180px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    transform: rotate(0deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: all 0.5s ease;
+    padding: 8px;
+    overflow: hidden;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .checkbox_faq_two:checked+.faq_answered_two {
+
+    width: 90%;
+    height: 180px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    transform: rotate(0deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: all 0.5s ease;
+    padding: 8px;
+    overflow: hidden;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .checkbox_faq_three:checked+.faq_answered_three {
+
+    width: 90%;
+    height: 180px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    transform: rotate(0deg);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: all 0.5s ease;
+    padding: 8px;
+    overflow: hidden;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .faq_answered {
+
+    opacity: 0;
+    transition: all 0.5s ease;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .faq_answered_two {
+    opacity: 0;
+    transition: all 0.5s ease;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .faq_answered_two h2 ol li {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: -50px;
+    margin-bottom: -30px;
+    margin-left: -15px;
+    color: #486DB7;
+  }
+
+  .faq_answered_two p {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #414141;
+  }
+
+  .faq_answered_three h2 ol li {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: -50px;
+    margin-bottom: -30px;
+    margin-left: -15px;
+    color: #486DB7;
+  }
+
+  .faq_answered_three p {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #414141;
+  }
+
+
+
+  .faq_answered h2 ol li {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    margin-top: -50px;
+    margin-bottom: -30px;
+    margin-left: -15px;
+    color: #486DB7;
+  }
+
+  .faq_answered p {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #414141;
+  }
+
+
+  .faq_answered_three {
+    opacity: 0;
+    transition: all 0.5s ease;
+    width: 0;
+    height: 0;
+    overflow: hidden;
   }
 
   .text_color {

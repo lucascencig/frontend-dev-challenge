@@ -145,4 +145,149 @@
     letter-spacing: 0.02em;
   }
 
+  .image_form {
+    display: none;
+  }
+}
+
+
+
+/* MEDIA SCREEN PC AND OTHERS */
+@media (max-width: 1440px) {
+
+  /* form */
+  .form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    margin-top: 20px;
+    background: #E4E4E4;
+    padding: 8px;
+    border-radius: 20px;
+  }
+
+  .form_container h2 {
+    font-family: var(--Font_Parrafos2);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  .form_container form {
+    padding-left: 8%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .input_email {
+    padding: 20px 0 10px 0;
+  }
+
+  .form_container input {
+    box-sizing: border-box;
+    width: 343px;
+    height: 56px;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    flex: none;
+    order: 14;
+    flex-grow: 0;
+  }
+
+  .form_container input::placeholder {
+    padding: 10px;
+  }
+
+  .selector {
+    padding: 20px 0 10px 0;
+  }
+
+  .selector label {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 30.44px;
+    top: 378vh;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #696969;
+
+  }
+
+  .form_container select {
+    box-sizing: border-box;
+    width: 343px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    flex: none;
+    order: 15;
+    flex-grow: 0;
+  }
+
+  .textarea {
+    padding: 20px 0 10px 0;
+  }
+
+  .form_container textarea {
+    box-sizing: border-box;
+    width: 337px;
+    height: 242px;
+    background: #FFFFFF;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    flex: none;
+    order: 16;
+    flex-grow: 0;
+    resize: none;
+  }
+
+  .form_container textarea::placeholder {
+    padding: 10px;
+  }
+
+  .button_submit {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    width: 337px;
+    margin-left: -0%;
+  }
+
+  .form_container button {
+    width: 337px;
+    height: 40px;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    background-color: #486DB7;
+    color: #191919;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  .image_form img {
+    position: relative;
+    width: 427px;
+    height: 100%;
+    left: 45%;
+    margin-top: -24%;
+
+
+  }
 }
