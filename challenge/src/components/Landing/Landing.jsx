@@ -4,6 +4,8 @@ import React from "react";
 import logo from '../images/logoES.png'
 import photoOne from '../images/photoOne.png'
 import photoTwo from '../images/photoFamilia.png'
+import publicidadUno from '../images/publicidad.png'
+import publicidadTres from '../images/publicidad3.png'
 import newsletters from '../images/newsletters.png'
 
 // imports components
@@ -25,13 +27,15 @@ export default function Landing() {
   return (
     <div className="contenedor_landing">
 
-      <h1><img src={logo} alt="logo" /></h1>
-
-      <div className="titulo_relevante">
+      <div className="main_title">
+        {/* <img src={logo} alt="logo" /> */}
+        <h1><span className="title_mejor">Mejor</span><span className="title_con">con</span><span className="title_salud">Salud</span></h1>
+      </div>
+      {/* <div className="titulo_relevante">
         <h3>
           Más relevante
         </h3>
-      </div>
+      </div> */}
 
 
       {/*first secction cards news */}
@@ -106,45 +110,50 @@ export default function Landing() {
         </div>
 
 
+
       </div>
 
-      {/* publicidad */}
-      <div className="advertising">
-        <div className="title_advertising">
-          <p>Publicidad</p>
+
+      <div className="second_section">
+
+        {/* publicidad */}
+        <div className="advertising">
+          <div className="title_advertising">
+            <p>Publicidad</p>
+          </div>
+
+          <div className="image_advertising">
+            <img src={publicidadUno} alt="" />
+          </div>
         </div>
 
-        <div className="image_advertising">
+
+
+
+        {/* intermediate photo */}
+        <div className="intermediate_photo">
+          <div className="intermediate_photo_img">
+          </div>
+
+          <div className="legend_text">
+            <p>Lorem ipsum dolor sit amet. Aquí entrará una leyenda en la foto</p>
+          </div>
         </div>
-      </div>
-
-      <div className="second_image_advertising">
-      </div>
 
 
-      {/* intermediate photo */}
-      <div className="intermediate_photo">
-        <div className="intermediate_photo_img">
+
+        {/* excerpt */}
+        <div className="excerpt">
+          <span className="border_excerpt"> </span>
+          <p>¿Cómo podemos diseñar una educación que tenga como resultado niños más responsables? En este artículo compartimos algunas estrategias que aumentan la probabilidad de éxito para este objetivo.</p>
         </div>
 
-        <div className="legend_text">
-          <p>Lorem ipsum dolor sit amet. Aquí entrará una leyenda en la foto</p>
-        </div>
       </div>
-
-
-
-      {/* excerpt */}
-      <div className="excerpt">
-        <span className="border_excerpt"> </span>
-        <p>¿Cómo podemos diseñar una educación que tenga como resultado niños más responsables? En este artículo compartimos algunas estrategias que aumentan la probabilidad de éxito para este objetivo.</p>
-      </div>
-
-
 
 
 
       {/* comments */}
+      <h4 className="title_comments">comentarios</h4>
       <Comments />
 
       {/* FAQ Section */}
@@ -152,11 +161,16 @@ export default function Landing() {
         <Faq />
       </section>
 
-
       <div className="advesiting_large">
         <div className="title_advertising_large">
           <p>Publicidad</p>
         </div>
+        <div className="advesiting_large_img">
+          <img src={publicidadTres} alt="" />
+        </div>
+      </div>
+
+      <div className="second_image_advertising">
       </div>
 
       {/* separator */}
@@ -173,10 +187,10 @@ export default function Landing() {
         <div className="news_letters_titles">
           <h3>SUSCRIBETE</h3>
           <h4>PARA RECIBIR MÁS INFORMACIÓN</h4>
-        </div>
-        <div className="input_newsletters">
-          <input type="text" />
-          <button onClick={handleSubmit}>Suscribirse</button>
+          <div className="input_newsletters">
+            <input type="text" />
+            <button onClick={handleSubmit}>Suscribirse</button>
+          </div>
         </div>
       </div>
 

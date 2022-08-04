@@ -30,7 +30,7 @@ export default function Comments() {
 
         <li>
           <div className="box_comment">
-            <img src={quotes} alt="quotes" />
+            <img className="box_comment_img" src={quotes} alt="quotes" />
 
             <div className="text_comment">
               <p>Me parecio un sitio sumamente práctico,  estoy muy contenta con los consejos para ser una buena madre.</p>
@@ -44,7 +44,7 @@ export default function Comments() {
 
         <li>
           <div className="box_comment">
-            <img src={quotes} alt="quotes" />
+            <img className="box_comment_img" src={quotes} alt="quotes" />
 
             <div className="text_comment">
               <p>Muchas gracias por la informacion, ahora mi trabajo como madre va a ser mucho mejor y con mi marido podremos ser mejores padres.</p>

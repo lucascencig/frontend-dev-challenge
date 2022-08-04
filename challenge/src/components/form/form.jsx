@@ -22,31 +22,34 @@ export default function Form() {
 
         <form onSubmit={handleSubmit}>
 
-          <div className="input_email">
-            <input placeholder="Inserte su: correo" type="email" />
-          </div>
+          <div className='form_flex'>
+            <div className='int_form_flex'>
+              <div className="input_email">
+                <input placeholder="Inserte su: correo" type="email" />
+              </div>
 
-          <div className="selector">
-            <select name="" placeholder="Select" id="">
-              <option value="">Select</option>
-              <option value="">option1</option>
-              <option value="">option2</option>
-              <option value="">option3</option>
-            </select>
-          </div>
+              <div className="selector">
+                <select name="" placeholder="Select" id="">
+                  <option value="">Select</option>
+                  <option value="">option1</option>
+                  <option value="">option2</option>
+                  <option value="">option3</option>
+                </select>
+              </div>
 
-          <div className="textarea">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-          </div>
+              <div className="textarea">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+              </div>
 
-          <div className="button_submit">
-            <button type="submit">Enviar</button>
-          </div>
+              <div className="button_submit">
+                <button type="submit">Enviar</button>
+              </div>
+            </div>
 
-          <div className="image_form">
-            <img src={suporte} alt="" />
+            <div className="image_form">
+              <img src={suporte} alt="" />
+            </div>
           </div>
-
         </form>
 
       </div>
