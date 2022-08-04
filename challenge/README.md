@@ -1,3 +1,14 @@
+Autor: Lucas Cencig.
+App-web: Proyecto web basado en una web informativa para madres o cualquier persona que desea informarse para ser padre.
+         Adaptado a todos los dispositivos (mobile y desktop).
+Herramientas: Creado con REACTJS, JAVASCRIPT, HTML5 y CSS3. Se uso "mediaquery" para el diseño responsivo.
+              Cada parte de la aplicación esta separado en componentes individuales para trabajar mejor sobre cada uno.
+Inicio: Abrir en consola la carpeta "CHALLENGE" y ejecutar el comando "npm i" para instalar las dependencias de desarrollo y luego "npm start".
+        para abrir el proyecto en la web.
+Deploy: El proyecto esta subido en internet y se puede ingresar mediante el link: https://frontend-dev-challenge-kappa.vercel.app/
+SEO: Agregadas las funcionalidades de robots de google y posicionamiento.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
