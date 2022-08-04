@@ -18,7 +18,7 @@ body {
   --colorGris: #CACACA;
   --colorGris2: #B1B1B1;
   --colorGris3: #979797;
-  -colorGris4: #7D7D7D;
+  --colorGris4: #7D7D7D;
   --colorGris5: #696969;
   --colorGris6: #555555;
   --colorGris7: #414141;
@@ -44,47 +44,39 @@ body {
   margin: auto;
 }
 
-.main_title img {
-  width: 50%;
+.logo {
+  width: 40px;
+  height: 30px;
 }
 
 h1 .title_mejor {
   color: #419FB9;
-  font-family: 'Source Sans Pro';
+  font-family: var(--Font_Heading);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  /* identical to box height, or 100% */
-
   letter-spacing: -0.02em;
-
 }
 
 h1 .title_con {
   color: #265E6C;
-  font-family: 'Source Sans Pro';
+  font-family: var(--Font_Heading);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  /* identical to box height, or 100% */
-
   letter-spacing: -0.02em;
-
 }
 
 h1 .title_salud {
   color: #FF93C7;
-  font-family: 'Source Sans Pro';
+  font-family: var(--Font_Heading);
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  /* identical to box height, or 100% */
-
   letter-spacing: -0.02em;
-
 }
 
 /* SEARCHBAR */
@@ -98,11 +90,10 @@ h1 .title_salud {
   height: 56px;
   left: -322px;
   top: 45px;
-  outline: #B1B1B1;
+  outline: var(--colorGris2);
   z-index: 3;
   transform: translateY(0);
   transition: all 0.5s ease;
-
 }
 
 .search_bar_container {
@@ -111,7 +102,7 @@ h1 .title_salud {
   height: 56px;
   left: -322px;
   top: 45px;
-  outline: #B1B1B1;
+  outline: var(--colorGris2);
   z-index: 3;
   transform: translateY(-150px);
   transition: all 0.5s ease-out;
@@ -120,12 +111,10 @@ h1 .title_salud {
 .input_search input {
   width: 100%;
   height: 56px;
-  /* left: 13px; */
   top: 92px;
-  border: 1px solid #B1B1B1;
+  border: 1px solid var(--colorGris2);
   border-radius: 4px;
   min-width: 250px;
-
 }
 
 .input_search input::placeholder {
@@ -136,8 +125,7 @@ h1 .title_salud {
   line-height: 24px;
   padding: 8px;
   letter-spacing: -0.02em;
-  color: #7D7D7D;
-
+  color: var(--colorGris4);
 }
 
 .search_content {
@@ -151,7 +139,7 @@ h1 .title_salud {
   height: 40px;
   right: 8px;
   bottom: 8px;
-  background: #B378FF;
+  background: var(--colorPurples);
   border-radius: 4px;
   transition: all 0.2s ease;
   cursor: pointer;
@@ -216,7 +204,7 @@ h1 .title_salud {
   line-height: 16px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #F778B9;
+  color: var(--colorPink);
   margin-left: 7px;
 }
 
@@ -229,7 +217,7 @@ h1 .title_salud {
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.02em;
-  color: #414141;
+  color: var(--colorGris7);
   flex: none;
   order: 1;
   align-self: stretch;
@@ -247,7 +235,7 @@ h1 .title_salud {
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #414141;
+  color: var(--colorGris7);
   flex: none;
   order: 1;
   align-self: stretch;
@@ -257,7 +245,6 @@ h1 .title_salud {
 }
 
 .card_news_two {
-
   padding: 0px;
   width: 342.56px;
   height: 400px;
@@ -288,7 +275,7 @@ h1 .title_salud {
   line-height: 16px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #F778B9;
+  color: var(--colorPink);
   margin-left: 7px;
 }
 
@@ -301,7 +288,7 @@ h1 .title_salud {
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.02em;
-  color: #414141;
+  color: var(--colorGris7);
   flex: none;
   order: 1;
   align-self: stretch;
@@ -319,7 +306,7 @@ h1 .title_salud {
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #414141;
+  color: var(--colorGris7);
   flex: none;
   order: 1;
   align-self: stretch;
@@ -349,7 +336,6 @@ h1 .title_salud {
   align-self: stretch;
   flex-grow: 0;
   background-image: url('../components/images/photoKids.png');
-
 }
 
 .card_section_three h3 {
@@ -362,7 +348,7 @@ h1 .title_salud {
   line-height: 16px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #F778B9;
+  color: var(--colorPink);
   margin-left: 7px;
 }
 
@@ -375,7 +361,7 @@ h1 .title_salud {
   font-size: 24px;
   line-height: 32px;
   letter-spacing: -0.02em;
-  color: #414141;
+  color: var(--colorGris7);
   flex: none;
   order: 1;
   align-self: stretch;
@@ -393,7 +379,7 @@ h1 .title_salud {
   font-size: 16px;
   line-height: 32px;
   letter-spacing: 0.02em;
-  color: #414141;
+  color: var(--colorGris7);
   flex: none;
   order: 1;
   align-self: stretch;
@@ -427,11 +413,10 @@ h1 .title_salud {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.02em;
-  color: #000000;
+  color: var(--basic2);
   flex: none;
   order: 4;
   flex-grow: 0;
-
 }
 
 .image_advertising img {
@@ -483,7 +468,7 @@ h1 .title_salud {
   padding: 8px;
   width: 500px;
   height: 64px;
-  background: #F1F1F1;
+  background: var(--colorBlanco);
   flex: none;
   order: 7;
   flex-grow: 0;
@@ -499,7 +484,7 @@ h1 .title_salud {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #7D7D7D;
+  color: var(--colorGris4);
   flex: none;
   order: 0;
   align-self: stretch;
@@ -521,21 +506,18 @@ h1 .title_salud {
   font-size: 15px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: #414141;
+  color: var(--colorGris7);
   margin-left: -2%;
   padding: 8px;
   min-width: 250px;
-
 }
 
 .excerpt p {
   width: 50%;
   height: 100%;
   padding: 8px;
-  border-left: solid 4px #486DB7;
+  border-left: solid 4px var(--colorIndigo);
 }
-
-
 
 /* separator */
 .separator {
@@ -561,8 +543,7 @@ h1 .title_salud {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.02em;
-  color: #000000;
-
+  color: var(--basic2);
 }
 
 .advesiting_large_img img {
@@ -571,8 +552,6 @@ h1 .title_salud {
   margin-bottom: 50px;
   margin-top: -10px;
 }
-
-
 
 .news_letters {
   width: 100%;
@@ -591,7 +570,6 @@ h1 .title_salud {
   margin: auto;
   min-width: 250px;
   margin-top: -50px;
-
 }
 
 .news_letters_titles {
@@ -623,8 +601,7 @@ h1 .title_salud {
   width: 350px;
   height: 56px;
   min-width: 250px;
-
-  border: 1px solid #CACACA;
+  border: 1px solid var(--colorGris);
   border-radius: 4px;
 }
 
@@ -634,7 +611,7 @@ h1 .title_salud {
   align-items: center;
   padding: 8px 16px;
   gap: 8px;
-  background: #696969;
+  background: var(--colorGris5);
   border-radius: 4px;
   color: var(--basic1);
   font-family: 'Source Sans Pro';
@@ -662,7 +639,7 @@ h1 .title_salud {
     height: 56px;
     left: -1350px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(0);
     transition: all 0.5s ease;
@@ -674,7 +651,7 @@ h1 .title_salud {
     height: 56px;
     left: -1350px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(-150px);
     transition: all 0.5s ease-out;
@@ -688,7 +665,6 @@ h1 .title_salud {
     margin: auto;
     width: 100%;
   }
-
 
   /* advertising */
   .advertising {
@@ -709,7 +685,6 @@ h1 .title_salud {
     flex-direction: column;
     margin-top: 7%;
     margin-left: -29%;
-
   }
 
   .intermediate_photo_img {
@@ -730,7 +705,7 @@ h1 .title_salud {
     padding: 8px;
     width: 800px;
     height: 64px;
-    background: #F1F1F1;
+    background: var(--colorBlanco);
     flex: none;
     order: 7;
     flex-grow: 0;
@@ -746,7 +721,7 @@ h1 .title_salud {
     font-size: 24px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #7D7D7D;
+    color: var(--colorGris4);
     flex: none;
     order: 0;
     align-self: stretch;
@@ -767,8 +742,7 @@ h1 .title_salud {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #414141;
-    /* margin-left: -0%; */
+    color: var(--colorGris7);
     padding: 8px;
     min-width: 250px;
     margin-top: 5%;
@@ -779,7 +753,7 @@ h1 .title_salud {
     width: 90%;
     height: 100%;
     padding: 8px;
-    border-left: solid 4px #486DB7;
+    border-left: solid 4px var(--colorIndigo);
   }
 
   .faq_title {
@@ -788,7 +762,7 @@ h1 .title_salud {
     align-items: center;
     margin: auto;
     margin-bottom: auto;
-    background-color: #F778B9;
+    background-color: var(--colorPink);
     border-radius: 4px;
     width: 100%;
     height: 40px;
@@ -807,7 +781,6 @@ h1 .title_salud {
     margin-left: 2%;
     margin-top: 1%;
   }
-
 }
 
 @media (max-width: 1440px) {
@@ -817,7 +790,7 @@ h1 .title_salud {
     height: 56px;
     left: -1150px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(0);
     transition: all 0.5s ease;
@@ -829,7 +802,7 @@ h1 .title_salud {
     height: 56px;
     left: -1150px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(-150px);
     transition: all 0.5s ease-out;
@@ -863,7 +836,6 @@ h1 .title_salud {
     flex-direction: column;
     margin-top: 7%;
     margin-left: -29%;
-
   }
 
   .intermediate_photo_img {
@@ -884,7 +856,7 @@ h1 .title_salud {
     padding: 8px;
     width: 800px;
     height: 64px;
-    background: #F1F1F1;
+    background: var(--colorBlanco);
     flex: none;
     order: 7;
     flex-grow: 0;
@@ -900,13 +872,12 @@ h1 .title_salud {
     font-size: 24px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #7D7D7D;
+    color: var(--colorGris4);
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
   }
-
 
   /* excerpt */
   .excerpt {
@@ -922,8 +893,7 @@ h1 .title_salud {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #414141;
-    /* margin-left: -0%; */
+    color: var(--colorGris7);
     padding: 8px;
     min-width: 250px;
     margin-top: 5%;
@@ -934,7 +904,7 @@ h1 .title_salud {
     width: 90%;
     height: 100%;
     padding: 8px;
-    border-left: solid 4px #486DB7;
+    border-left: solid 4px var(--colorIndigo);
   }
 
   .faq_title {
@@ -943,7 +913,7 @@ h1 .title_salud {
     align-items: center;
     margin: auto;
     margin-bottom: auto;
-    background-color: #F778B9;
+    background-color: var(--colorPink);
     border-radius: 4px;
     width: 100%;
     height: 40px;
@@ -971,7 +941,7 @@ h1 .title_salud {
     height: 56px;
     left: -1032px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(0);
     transition: all 0.5s ease;
@@ -983,12 +953,11 @@ h1 .title_salud {
     height: 56px;
     left: -1032px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(-150px);
     transition: all 0.5s ease-out;
   }
-
 
   /* advertising */
   .advertising {
@@ -1009,7 +978,6 @@ h1 .title_salud {
     flex-direction: column;
     margin-top: 7%;
     margin-left: -29%;
-
   }
 
   .intermediate_photo_img {
@@ -1030,7 +998,7 @@ h1 .title_salud {
     padding: 8px;
     width: 800px;
     height: 64px;
-    background: #F1F1F1;
+    background: var(--colorBlanco);
     flex: none;
     order: 7;
     flex-grow: 0;
@@ -1046,7 +1014,7 @@ h1 .title_salud {
     font-size: 24px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #7D7D7D;
+    color: var(--colorGris4);
     flex: none;
     order: 0;
     align-self: stretch;
@@ -1067,8 +1035,7 @@ h1 .title_salud {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #414141;
-    /* margin-left: -0%; */
+    color: var(--colorGris7);
     padding: 8px;
     min-width: 250px;
     margin-top: 5%;
@@ -1079,7 +1046,7 @@ h1 .title_salud {
     width: 90%;
     height: 100%;
     padding: 8px;
-    border-left: solid 4px #486DB7;
+    border-left: solid 4px var(--colorIndigo);
   }
 
   .faq_title {
@@ -1088,7 +1055,7 @@ h1 .title_salud {
     align-items: center;
     margin: auto;
     margin-bottom: auto;
-    background-color: #F778B9;
+    background-color: var(--colorPink);
     width: 100%;
     height: 40px;
     min-width: 250px;
@@ -1115,7 +1082,7 @@ h1 .title_salud {
     height: 56px;
     left: -832px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(0);
     transition: all 0.5s ease;
@@ -1127,7 +1094,7 @@ h1 .title_salud {
     height: 56px;
     left: -832px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(-150px);
     transition: all 0.5s ease-out;
@@ -1140,8 +1107,6 @@ h1 .title_salud {
     margin: auto;
     flex-direction: column;
     margin-top: 10%;
-    /* margin-left: -48%; */
-
   }
 
   .intermediate_photo_img {
@@ -1162,7 +1127,7 @@ h1 .title_salud {
     padding: 8px;
     width: 800px;
     height: 64px;
-    background: #F1F1F1;
+    background: var(--colorBlanco);
     flex: none;
     order: 7;
     flex-grow: 0;
@@ -1178,13 +1143,12 @@ h1 .title_salud {
     font-size: 24px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #7D7D7D;
+    color: var(--colorGris4);
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
   }
-
 
   /* advertising */
   .advertising {
@@ -1211,8 +1175,7 @@ h1 .title_salud {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #414141;
-    /* margin-left: -0%; */
+    color: var(--colorGris7);
     padding: 8px;
     min-width: 250px;
     margin-bottom: 50px;
@@ -1222,7 +1185,7 @@ h1 .title_salud {
     width: 90%;
     height: 100%;
     padding: 8px;
-    border-left: solid 4px #486DB7;
+    border-left: solid 4px var(--colorIndigo);
   }
 
   .faq_title {
@@ -1231,7 +1194,7 @@ h1 .title_salud {
     align-items: center;
     margin: auto;
     margin-bottom: auto;
-    background-color: #F778B9;
+    background-color: var(--colorPink);
     width: 100%;
     height: 40px;
     min-width: 250px;
@@ -1258,7 +1221,6 @@ h1 .title_salud {
     margin: auto;
     min-width: 250px;
     margin-top: -50px;
-
   }
 
   .news_letters_titles {
@@ -1291,7 +1253,7 @@ h1 .title_salud {
     width: 330px;
     height: 46px;
     min-width: 250px;
-    border: 1px solid #CACACA;
+    border: 1px solid var(--colorGris);
     border-radius: 4px;
   }
 
@@ -1301,7 +1263,7 @@ h1 .title_salud {
     align-items: center;
     padding: 5px 12px;
     gap: 8px;
-    background: #696969;
+    background: var(--colorGris5);
     border-radius: 4px;
     color: var(--basic1);
     font-family: 'Source Sans Pro';
@@ -1354,7 +1316,7 @@ h1 .title_salud {
     height: 56px;
     left: -552px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(0);
     transition: all 0.5s ease;
@@ -1366,7 +1328,7 @@ h1 .title_salud {
     height: 56px;
     left: -552px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(-150px);
     transition: all 0.5s ease-out;
@@ -1390,10 +1352,7 @@ h1 .title_salud {
     flex-grow: 0;
     order: 2;
     flex-grow: 0;
-
-
   }
-
 
   .intermediate_photo {
     display: flex;
@@ -1402,8 +1361,6 @@ h1 .title_salud {
     margin: auto;
     flex-direction: column;
     margin-top: 10%;
-    /* margin-left: -48%; */
-
   }
 
   .intermediate_photo_img {
@@ -1424,7 +1381,7 @@ h1 .title_salud {
     padding: 8px;
     width: 342px;
     height: 64px;
-    background: #F1F1F1;
+    background: var(--colorBlanco);
     flex: none;
     order: 7;
     flex-grow: 0;
@@ -1440,7 +1397,7 @@ h1 .title_salud {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #7D7D7D;
+    color: var(--colorGris4);
     flex: none;
     order: 0;
     align-self: stretch;
@@ -1472,8 +1429,7 @@ h1 .title_salud {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #414141;
-    /* margin-left: -0%; */
+    color: var(--colorGris7);
     padding: 8px;
     min-width: 250px;
     margin-bottom: 50px;
@@ -1483,7 +1439,7 @@ h1 .title_salud {
     width: 90%;
     height: 100%;
     padding: 8px;
-    border-left: solid 4px #486DB7;
+    border-left: solid 4px var(--colorIndigo);
   }
 
   .news_letters {
@@ -1503,7 +1459,6 @@ h1 .title_salud {
     margin: auto;
     min-width: 250px;
     margin-top: -50px;
-
   }
 
   .news_letters_titles {
@@ -1536,7 +1491,7 @@ h1 .title_salud {
     width: 300px;
     height: 46px;
     min-width: 250px;
-    border: 1px solid #CACACA;
+    border: 1px solid var(--colorGris);
     border-radius: 4px;
   }
 
@@ -1546,7 +1501,7 @@ h1 .title_salud {
     align-items: center;
     padding: 5px 12px;
     gap: 8px;
-    background: #696969;
+    background: var(--colorGris5);
     border-radius: 4px;
     color: var(--basic1);
     font-family: 'Source Sans Pro';
@@ -1559,7 +1514,6 @@ h1 .title_salud {
     top: -43px;
     left: 65%;
   }
-
 }
 
 @media (max-width: 475px) {
@@ -1571,10 +1525,7 @@ h1 .title_salud {
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
-    /* identical to box height, or 100% */
-
     letter-spacing: -0.02em;
-
   }
 
   h1 .title_con {
@@ -1584,10 +1535,7 @@ h1 .title_salud {
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
-    /* identical to box height, or 100% */
-
     letter-spacing: -0.02em;
-
   }
 
   h1 .title_salud {
@@ -1597,10 +1545,7 @@ h1 .title_salud {
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
-    /* identical to box height, or 100% */
-
     letter-spacing: -0.02em;
-
   }
 
   .checkbox_search:checked+.search_bar_container {
@@ -1609,7 +1554,7 @@ h1 .title_salud {
     height: 56px;
     left: -352px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(0);
     transition: all 0.5s ease;
@@ -1621,7 +1566,7 @@ h1 .title_salud {
     height: 56px;
     left: -352px;
     top: 45px;
-    outline: #B1B1B1;
+    outline: var(--colorGris2);
     z-index: 3;
     transform: translateY(-150px);
     transition: all 0.5s ease-out;
@@ -1636,7 +1581,6 @@ h1 .title_salud {
     flex-direction: column;
     margin-top: 10%;
     margin-left: 0%;
-
   }
 
   .intermediate_photo_img {
@@ -1660,7 +1604,7 @@ h1 .title_salud {
     padding: 8px;
     width: 350px;
     height: 64px;
-    background: #F1F1F1;
+    background: var(--colorBlanco);
     flex: none;
     order: 7;
     flex-grow: 0;
@@ -1676,13 +1620,12 @@ h1 .title_salud {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #7D7D7D;
+    color: var(--colorGris4);
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
   }
-
 
   /* advertising */
   .advertising {
@@ -1693,9 +1636,7 @@ h1 .title_salud {
     position: relative;
     top: 0%;
     left: 0%;
-
   }
-
 
   /* excerpt */
   .excerpt {
@@ -1711,18 +1652,17 @@ h1 .title_salud {
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #414141;
+    color: var(--colorGris7);
     margin-left: -2%;
     padding: 8px;
     min-width: 250px;
-
   }
 
   .excerpt p {
     width: 90%;
     height: 100%;
     padding: 8px;
-    border-left: solid 4px #486DB7;
+    border-left: solid 4px var(--colorIndigo);
   }
 
 
@@ -1739,7 +1679,6 @@ h1 .title_salud {
 
   .advesiting_large {
     display: none;
-
   }
 
   .title_advertising_large p {
@@ -1750,8 +1689,7 @@ h1 .title_salud {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.02em;
-    color: #000000;
-
+    color: var(--basic2);
   }
 
   .advesiting_large_img img {
@@ -1805,8 +1743,7 @@ h1 .title_salud {
     width: 250px;
     height: 36px;
     min-width: 250px;
-
-    border: 1px solid #CACACA;
+    border: 1px solid var(--colorGris);
     border-radius: 4px;
   }
 
@@ -1816,7 +1753,7 @@ h1 .title_salud {
     align-items: center;
     padding: 2px 12px;
     gap: 8px;
-    background: #696969;
+    background: var(--colorGris5);
     border-radius: 4px;
     color: var(--basic1);
     font-family: 'Source Sans Pro';
@@ -1829,5 +1766,4 @@ h1 .title_salud {
     top: -34px;
     left: 65%;
   }
-
 }

@@ -26,15 +26,12 @@
 
 
  /* COMMENTS */
-
-
-
  .title_comments {
    display: flex;
    justify-content: center;
    align-items: center;
    margin: auto;
-   background-color: #F778B9;
+   background-color: var(--colorPink);
    border-radius: 4px;
    width: 80%;
    height: 40px;
@@ -43,38 +40,30 @@
    margin-bottom: 30px;
  }
 
-
  .comments_container {
    display: flex;
    justify-content: space-evenly;
    align-items: center;
    margin: auto;
-
    width: 375px;
    height: 100%;
    padding: 8px;
    margin-top: 10px;
-
    overflow: hidden;
    margin-bottom: 30px;
    min-width: 250px;
-   /* animation: next 5s infinite; */
-
  }
 
  .comments_container ul {
-
    display: flex;
    width: 100%;
    padding: 0;
-   /* border-radius: 10px; */
    animation: cambio 15s infinite alternate;
  }
 
  .comments_container li {
    list-style: none;
    width: 100%;
-
  }
 
  .box_comment img {
@@ -94,33 +83,30 @@
    animation: next 5s infinite;
  }
 
-
-
  .text_comment {
    width: 255px;
    height: 224px;
-   font-family: 'Merriweather';
+   font-family: var(--Font_Parrafos);
    font-style: italic;
    font-weight: 400;
    font-size: 16px;
    line-height: 32px;
    text-align: center;
    letter-spacing: 0.02em;
-   color: #414141;
-
+   color: var(--colorGris7);
  }
 
  .name_comment {
    width: 255px;
    height: 24px;
-   font-family: 'Merriweather';
+   font-family: var(--Font_Parrafos);
    font-style: normal;
    font-weight: 700;
    font-size: 16px;
    line-height: 24px;
    text-align: center;
    letter-spacing: -0.02em;
-   color: #414141;
+   color: var(--colorGris7);
    margin-bottom: 20px;
  }
 
@@ -368,7 +354,7 @@
      justify-content: center;
      align-items: center;
      margin: auto;
-     background-color: #F778B9;
+     background-color: var(--colorPink);
      border-radius: 4px;
      width: 80%;
      height: 40px;
@@ -421,14 +407,11 @@
      100% {
        margin-left: -745px;
      }
-
    }
-
  }
 
 
  @media (max-width: 475px) {
-
 
    .box_comment {
      display: flex;
@@ -475,6 +458,5 @@
      100% {
        margin-left: -750px;
      }
-
    }
  }

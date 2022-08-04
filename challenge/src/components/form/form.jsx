@@ -21,7 +21,6 @@ export default function Form() {
         <h2>¡Contactate con nosotros!</h2>
 
         <form onSubmit={handleSubmit}>
-
           <div className='form_flex'>
             <div className='int_form_flex'>
               <div className="input_email">
