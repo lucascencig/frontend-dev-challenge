@@ -66,6 +66,7 @@
   flex-grow: 0;
   margin: 0px 0px 0px 10px;
   border-bottom: 2px dashed var(--basic2);
+  cursor: pointer;
 }
 
 .faq_question h3 img {
@@ -151,6 +152,7 @@
   flex-grow: 0;
   margin: 0px 0px 0px 10px;
   border-bottom: 2px dashed var(--basic2);
+  cursor: pointer;
 }
 
 .faq_question_two h3 img {
@@ -232,6 +234,7 @@
   flex-grow: 0;
   margin: 0px 0px 0px 10px;
   border-bottom: 2px dashed var(--basic2);
+  cursor: pointer;
 }
 
 .faq_question_three h3 img {
@@ -298,7 +301,215 @@
   color: #414141;
 }
 
+@media (max-width: 1920px) {
+  .faq_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
+    background-color: #F778B9;
+    border-radius: 4px;
+    font-size: 10px;
+    width: 100%;
+    height: 40px;
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .faq_question h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_two h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_three h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .faq_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    background-color: #F778B9;
+    border-radius: 4px;
+    font-size: 10px;
+    width: 100%;
+    height: 40px;
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .faq_question h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_two h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_three h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .faq_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    background-color: #F778B9;
+    border-radius: 4px;
+    font-size: 10px;
+    width: 100%;
+    height: 40px;
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .faq_question h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_two h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_three h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .faq_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    background-color: #F778B9;
+    border-radius: 4px;
+    font-size: 10px;
+    width: 100%;
+    height: 40px;
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .faq_question h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_two h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_three h3 img {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .faq_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    background-color: #F778B9;
+    border-radius: 4px;
+    font-size: 10px;
+    width: 100%;
+    height: 40px;
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .faq_question h3 img {
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_two h3 img {
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .faq_question_three h3 img {
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    width: 40px;
+    height: 40px;
+  }
+}
 
 @media (max-width: 475px) {
   .faq_title {

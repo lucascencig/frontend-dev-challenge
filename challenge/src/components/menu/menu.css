@@ -31,6 +31,7 @@
   background-color: var(--basic1);
   box-shadow: rgba(0, 0, 0, 0.25) 0 4px 4px 0;
   min-width: 250px;
+
 }
 
 .boton_menu {
@@ -39,7 +40,7 @@
   height: 40px;
   left: 10px;
   top: 10px;
-
+  cursor: pointer;
 }
 
 .titulo_menu img {
@@ -47,20 +48,21 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  position: absolute;
-  left: 30.94%;
-  right: 25.56%;
+  margin-top: auto;
+
+  right: 25 .56%;
   margin-top: -15px;
-  /* bottom: 88.66%; */
   width: 150px;
+
 }
 
 .boton_buscador {
   position: absolute;
   width: 24px;
   height: 24px;
-  right: 15.99px;
+  right: 13.99px;
   top: 12px;
+  cursor: pointer;
 }
 
 
@@ -127,6 +129,7 @@
 .options_menu a {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
   padding: 0px;
   gap: 5px;
@@ -136,6 +139,14 @@
   text-decoration: none;
   font-weight: 700;
   color: #555555;
+  transition: all 0.2s ease;
+}
+
+.options_menu a:hover {
+  background-color: #fba3d1;
+  width: 200px;
+  align-items: center;
+  transition: all 0.2s ease;
 }
 
 .arrow_right_1 {
@@ -184,4 +195,19 @@
   margin-top: 20px;
   scroll-behavior: smooth;
   cursor: pointer;
+}
+
+@media (max-width: 475px) {
+  .titulo_menu img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: auto;
+
+    right: 25 .56%;
+    margin-top: -15px;
+    width: 150px;
+
+  }
 }
