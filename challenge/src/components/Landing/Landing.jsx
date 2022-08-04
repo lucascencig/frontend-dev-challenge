@@ -25,10 +25,10 @@ export default function Landing() {
   }
 
   return (
-    <div className="contenedor_landing">
+    <div className="landing_container">
 
       <div className="main_title">
-        <img className="logo" src={logo} alt="logo" />
+        <img className="logo" src={logo} alt="logo_mejor-con-salud" />
         <h1><span className="title_mejor">Mejor</span><span className="title_con">con</span><span className="title_salud">Salud</span></h1>
       </div>
 
@@ -59,7 +59,7 @@ export default function Landing() {
 
         <div className="card_news_two">
           <div>
-            <img src={photoTwo} alt="photoOne" />
+            <img src={photoTwo} alt="photoTwo" />
           </div>
 
           <div className="card_section_two">
@@ -111,7 +111,7 @@ export default function Landing() {
           </div>
 
           <div className="image_advertising">
-            <img src={publicidadUno} alt="" />
+            <img src={publicidadUno} alt="advertising" />
           </div>
         </div>
 
@@ -145,7 +145,7 @@ export default function Landing() {
           <p>Publicidad</p>
         </div>
         <div className="advesiting_large_img">
-          <img src={publicidadTres} alt="" />
+          <img src={publicidadTres} alt="advertising" />
         </div>
       </div>
 

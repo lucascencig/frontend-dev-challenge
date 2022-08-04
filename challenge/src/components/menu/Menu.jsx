@@ -28,18 +28,18 @@ export default function Menu() {
   }
 
   return (
-    <div className="contenedor_general_menu">
+    <div className="menu_container">
 
-      <label for="menu" className="boton_menu" onClick={changeToCross}>
+      <label for="menu" className="button_menu" onClick={changeToCross}>
         {
           icon === true
             ?
-            <img id="icon__menu" src={iconMenu} alt="" />
+            <img id="icon__menu" src={iconMenu} alt="hamburger_menu" />
             :
-            <img id="icon__menu" src={crossMenu} alt="" />
+            <img id="icon__menu" src={crossMenu} alt="cross_menu" />
         }
       </label>
-      <input type="checkbox" id="menu" className="boton_menu_input" />
+      <input type="checkbox" id="menu" className="button_menu_input" />
 
       <div className="nav_menu">
         <h2>Embarazo</h2>
@@ -58,16 +58,16 @@ export default function Menu() {
 
         <div className="faquestions">
           <a href="#faq">
-            <img src={faq} alt="" />
+            <img src={faq} alt="faq_logo" />
           </a>
         </div>
       </div>
 
-      <div className="titulo_menu">
-        <img src={tituloMenu} alt="titulo_menu" />
+      <div className="title_menu">
+        <img src={tituloMenu} alt="title_menu" />
       </div>
 
-      <div className="boton_buscador">
+      <div className="button_search">
         <label htmlFor="search"><FaSearch className="icon_search_menu" /></label>
         <input type="checkbox" id="search" className="checkbox_search" />
 

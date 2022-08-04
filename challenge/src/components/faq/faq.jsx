@@ -29,9 +29,9 @@ export default function Faq() {
       <label htmlFor="faq" className="faq_question" onClick={changeToCross}>
         {icon === true
           ?
-          <h3>¿Cuales son los pasos para tomar una decisión?<img className="arrow_faq" src={arrowRight} alt="" />  </h3>
+          <h3>¿Cuales son los pasos para tomar una decisión?<img className="arrow_faq" src={arrowRight} alt="arrow_faq" />  </h3>
           :
-          <h3>¿Cuales son los pasos para tomar una decisión? <img className="arrow_faq" src={arrowDown} alt="" /> </h3>}
+          <h3>¿Cuales son los pasos para tomar una decisión? <img className="arrow_faq" src={arrowDown} alt="arrow_faq" /> </h3>}
       </label>
       <input type="checkbox" id="faq" className="checkbox_faq" />
 
@@ -51,9 +51,9 @@ export default function Faq() {
       <label htmlFor="faq_two" className="faq_question_two" onClick={changeToCross}>
         {icon === true
           ?
-          <h3>¿Cuales son los pasos para tomar una decisión?<img className="arrow_faq" src={arrowRight} alt="" />  </h3>
+          <h3>¿Cuales son los pasos para tomar una decisión?<img className="arrow_faq" src={arrowRight} alt="arrow_faq" />  </h3>
           :
-          <h3>¿Cuales son los pasos para tomar una decisión? <img className="arrow_faq" src={arrowDown} alt="" /> </h3>}
+          <h3>¿Cuales son los pasos para tomar una decisión? <img className="arrow_faq" src={arrowDown} alt="arrow_faq" /> </h3>}
       </label>
       <input type="checkbox" id="faq_two" className="checkbox_faq_two" />
 
@@ -73,9 +73,9 @@ export default function Faq() {
       <label htmlFor="faq_three" className="faq_question_three" onClick={changeToCross}>
         {icon === true
           ?
-          <h3>¿Cuales son los pasos para tomar una decisión?<img className="arrow_faq" src={arrowRight} alt="" />  </h3>
+          <h3>¿Cuales son los pasos para tomar una decisión?<img className="arrow_faq" src={arrowRight} alt="arrow_faq" />  </h3>
           :
-          <h3>¿Cuales son los pasos para tomar una decisión? <img className="arrow_faq" src={arrowDown} alt="" /> </h3>}
+          <h3>¿Cuales son los pasos para tomar una decisión? <img className="arrow_faq" src={arrowDown} alt="arrow_faq" /> </h3>}
       </label>
       <input type="checkbox" id="faq_three" className="checkbox_faq_three" />
 

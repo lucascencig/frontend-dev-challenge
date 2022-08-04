@@ -46,7 +46,7 @@ export default function Form() {
             </div>
 
             <div className="image_form">
-              <img src={suporte} alt="" />
+              <img src={suporte} alt="photo_suporte" />
             </div>
           </div>
         </form>
